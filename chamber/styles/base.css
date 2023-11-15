@@ -110,7 +110,7 @@ main img {
 .action {
     place-items: center;
 }
-#btn {
+main .action #btn {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     width: 200px;
