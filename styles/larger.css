@@ -32,4 +32,12 @@
     footer p {
         max-width: 500px;
     }
+
+    #menu {
+        display: none;
+    }
+
+    nav li {
+        display: list-item;
+    }
 }

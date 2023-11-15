@@ -6,8 +6,15 @@
     <title>Aina Tiana - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development (course assignemt portal)">
     <meta name="author" content="Rahery Ny Aina Tiana Navalona">
+    <meta property="og:title" content="Home Page">
+    <meta property="og:type" content="Showing all my activity through the course">
+    <meta property="og:image" content="https://ainanaval.github.io/wdd230/images/tamatave.jpg">
+    <meta property="og:url" content="https://ainanaval.github.io/wdd230/index.html">
+
+    <link rel="stylesheet" href="styles/dark.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    
 </head>
 <body>
     <header>
@@ -15,8 +22,11 @@
         <h1>RAHERY Ny Aina Tiana Navalona</h1>
     </header>
 
+    
     <nav>
-        <ul>
+        <button id="mode">🕶️</button>
+        <button id="menu"></button>
+        <ul class="navigation">
             <li class="active"><a  href="index.html">Home</a></li>
             <li><a href="#">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
@@ -31,12 +41,11 @@
                 <h3>Learning Activities</h3>
                 <ul>
                     <li>Week01: <a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></li>
-                    <li>Week02:</li>
+                    <li>Week02: <a href="week02/design.html">design</a> | <a href="https://codepen.io/AinaNaval/pen/xxMdjvx">Responsive Hamburger Menu</a></li>| <a href="week02/bom.html">DOM</a>
                     <li>Week03:</li>
                     <li>Week04:</li>
                     <li>Week05:</li>
                     <li>Week06:</li>
-                    
                 </ul>
             </section>
             <section class="card2">
@@ -53,5 +62,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark.js"></script>
 </body>
 </html>

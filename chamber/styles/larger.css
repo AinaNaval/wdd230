@@ -1,0 +1,45 @@
+@media screen and (min-width: 600px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    nav li a {
+        display: block;
+        padding: 1rem;
+    }
+
+    nav li {
+        width: 100%;
+        display: list-item;
+    }
+
+    #info {
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1rem;
+    }
+
+    #spotlights {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #spotlights section {
+        margin: 5px;
+    }
+
+    div section {
+        box-shadow: 0PX 0PX 10PX 10PX rgb(91, 139, 155);
+    }
+
+    #menu {
+        display: none;
+    }
+
+    main img {
+        height: 400px;
+    }
+}

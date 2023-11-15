@@ -2,13 +2,12 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic');
 
 :root {
   /* change the values below to your colors from your palette */
     --primary-color: #151f45;
     --secondary-color: #ffffff;
-    --accent1-color: #ffe11b;
+    --accent1-color: #9aa35b;
     --accent2-color: #000000;
 
   /* change the values below to your chosen font(s) */
@@ -22,8 +21,8 @@ Fonts are separated by a & */
     --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
     --paragraph-background-color: #151f45;
     --nav-link-color: #ffffff;
-    --nav-background-color: #151f45;
-    --nav-hover-link-color: #ffe11b;
+    --nav-background-color: #9aa35b;
+    --nav-hover-link-color: #151f45;
     --nav-hover-background-color: #ffffff;
 }
 
@@ -107,7 +106,7 @@ nav {
 nav  {
     list-style-type: none;
     display: flex;
-    border: 1px solid #151f45;
+    border: 1px solid #9aa35b;
 }
 nav a {
     padding:1em;
