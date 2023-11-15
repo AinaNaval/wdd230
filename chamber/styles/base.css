@@ -135,7 +135,7 @@ hr {
     margin: 0;
 }
 
-section p {
+div p {
     margin: 30px;
 }
 
@@ -154,6 +154,7 @@ h2 {
     margin: 3rem;
     color: #151f45;
 }
+
 
 footer {
     margin: auto;
