@@ -55,12 +55,12 @@
         height: 60pc;
     }
 
-    picture img {
-        width: 100%;
+    #images img {
+        width: 350px;
         height: 350px;
     }
 
-    picture img:hover {
+    #images img:hover {
         box-shadow: 0 0 50px rgb(144, 144, 168);
     }
 

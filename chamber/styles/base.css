@@ -235,14 +235,14 @@ footer img {
     margin: 40px;
 }
 
-picture {
+#images {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
 
 }
 
-picture img {
+#images img {
     margin-bottom: 1rem;
     height: 350px;
 }
