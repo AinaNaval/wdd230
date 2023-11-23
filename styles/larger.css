@@ -40,4 +40,30 @@
     nav li {
         display: list-item;
     }
+
+    #mobile {
+        display: none;
+    }
+
+    #larger {
+        display: list-item;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    iframe {
+        grid-column: 1/4;
+    }
+
+    .herolabel {
+        top: 260px;
+        left: 300px;
+        width: 300px;
+    }
+
+    .herolabel h2{
+        grid-column: 1/4;
+        text-align: center;
+    }
 }

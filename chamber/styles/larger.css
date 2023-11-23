@@ -42,4 +42,26 @@
     main img {
         height: 400px;
     }
+
+
+    /********** discover **********/
+    .sidebar-img {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+        margin: 0;
+    }
+
+    .sidebar {
+        height: 60pc;
+    }
+
+    picture img {
+        width: 100%;
+        height: 350px;
+    }
+
+    picture img:hover {
+        box-shadow: 0 0 50px rgb(144, 144, 168);
+    }
+
 }

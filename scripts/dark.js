@@ -7,8 +7,8 @@ const h2 = document.querySelector("h2");
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🕶️")) {
         body.style.background = "#000";
-		section1.style.background = "#000";
-        section2.style.background = "#000";
+		section1.style.background = "#fff";
+        section2.style.background = "#fff";
 		modeButton.textContent = "🔆";
         h2.style.color = "#fff";
 	} else {
