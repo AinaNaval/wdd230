@@ -1,3 +1,7 @@
+:root {
+    --used-color--:rgb(31, 45, 85);
+}
+
 .form {
     background: #71befd;
 }
@@ -8,13 +12,13 @@ main p {
 
 form fieldset{
     margin: 2rem 0;
-    border: 1px solid rgb(31, 45, 85);
+    border: 1px solid var(--used-color--);
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form label {
-    color: rgb(31, 45, 85);
+    color: var(--used-color--);
     display: block;
     padding-top: 1rem;
     font-size: .8rem;
@@ -27,13 +31,13 @@ form label input{
     width: 100%;
     padding: .7rem;
     border-radius: 5px;
-    border: 1px solid rgb(31, 45, 85);
+    border: 1px solid var(--used-color--);
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 form input.submitBtn {
     border: none;
-    background-color: rgb(31, 45, 85);
+    background-color: var(--used-color--);
     color: white;
     border-radius: 10px;
     padding: .75rem ;
@@ -70,7 +74,7 @@ input[type=range] {
 #rangevalue {
     margin-top: 20px;
 	font-size: 1.5rem;
-	color: rgb(31, 45, 85);
+	color: var(--used-color--);
     place-items: unset;
     margin-left: 5.5rem;
 }
