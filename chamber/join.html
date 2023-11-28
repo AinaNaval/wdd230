@@ -37,46 +37,26 @@
     </nav>
 
     <main>
-        <img src="images/tamatave-chamber.jpg" alt="hero">
-        <div class="action">
-            <button id="btn">Join Us</button>
-        </div>
+        <form method="get" action="thankYou.html">
+            <fieldset>
+                <label>First Name* <input type="text" name="firstName" id="fn" required></label>
+                <label>Last Name* <input type="text" name="lastName" id="ln" required></label>
+                <label>Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z-\s]{7,}$"></label>
+                <label>Email address* <input type="email" name="email" id="email" placeholder="something@gmail.com" required></label>
+                <label>Phone Number* <input type="tel" name="phone" id="phoneNumber" required></label>
+                <label>Business/Organization's name* <input type="text" name="business" id="business" required></label>
+                <div>Software Needed:</div>
+                <label><input type="radio" name="SNeeded" value="NP"> NP Membership is for non profit organizations and there is no fee</label>
+                <label><input type="radio" name="SNeeded" value="Bronze"> Bronze Membership</label>
+                <label><input type="radio" name="SNeeded" value="Silver"> Silver Membership</label>
+                <label><input type="radio" name="SNeeded" value="Gold"> Gold Membership</label>
+                <label class="bsn">Business/Organization's description: <textarea name="description" id="description"></textarea></label>
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+            </fieldset>
 
-        <div id="info">
-            <section id="weather">
-                <h3>Tamatave's Weather</h3>
-                <hr>
-                <p>Temperature: 27°C</p>
-                <p>Precipitations: 1%</p>
-                <p>Humitidy: 72%</p>
-                <p>Wind: 13 km/h</p>
-            </section>
-
-            <section id="event">
-                <h3>Event</h3>
-                <hr>
-                <p>Wanna go to the miami beach tamatave with us tomorrow?</p>
-                <p>Rendez-vous point in front of the Home town at 3:00 PM till 4:00 PM</p>
-            </section>
-        </div>
-
-        <h2>Member Spotlights</h2>
-
-        <div id="spotlights">
-            <section>
-                <h3>Thankful Transport</h3>
-                <hr>
-                <p>"We get it there for you"</p>
-                <p></p>
-            </section>
-            <section>
-                <h3>Code Primera</h3>
-                <hr>
-                <p>After school coding!</p>
-                <p></p>
-            </section>
-        </div>
-
+            <input type="submit" value="Join" class="submitBtn">
+            
+        </form>
     </main>
 
     <footer>

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+    color: rgb(81, 81, 100);
+}
+
+tr:first-child th, .same{
+    background: #000;
+}
+
+thead tr:nth-child(even) {
+    background: rgb(81, 81, 100);
+}
+
+thead {
+    border: 1px solid black;
+}
+
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    padding: 1rem;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background: hsl(0, 0%, 93%, 1);
+}
+
