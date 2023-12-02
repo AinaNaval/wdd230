@@ -1,4 +1,4 @@
-const visits = document.querySelector("span");
+const visits = document.querySelector("#numVisits");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 if (numVisits !== 0) {
 	visits.textContent = numVisits;

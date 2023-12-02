@@ -1,0 +1,85 @@
+{
+    "weeks" : [
+        {
+            "week" : "Week 1",
+            "links" : [
+                {
+                    "url" : "week01/holygrail.html",
+                    "title" : "HG Layout"
+                },
+                {
+                    "url" : "week01/media-query.html",
+                    "title" : "Media Query"
+                }]
+        },
+        {
+            "week" : "Week 2",
+            "links" : [
+                {
+                    "url" : "week02/design.html",
+                    "title" : "Design"
+                },
+                {
+                    "url" : "https://codepen.io/AinaNaval/pen/xxMdjvx",
+                    "title" : "Responsive Hamburger Menu"
+                },
+                {
+                    "url" : "week02/bom.html",
+                    "title" : "DOM"
+                }]       
+        },
+        {
+            "week" : "Week 3",
+            "links" : [
+                {
+                    "url" : "week03/images/landscape.webp",
+                    "title" : "WebP"
+                },
+                {
+                    "url" : "week03/bom.html",
+                    "title" : "BOM"
+                },
+                {
+                    "url" : "week03/lazyload.html",
+                    "title" : "Lazyload"
+                }]       
+        },
+        {
+            "week" : "Week 4",
+            "links" : [
+                {
+                    "url" : "https://codepen.io/naval-aina/pen/vYbrBge",
+                    "title" : "Pseudo-Class"
+                },
+                {
+                    "url" : "week04/images/exercises.png",
+                    "title" : "Exercises"
+                },
+                {
+                    "url" : "week04/tablebuild.html",
+                    "title" : "Table"
+                },
+                {
+                    "url" : "week04/form-start/form-start/index.html",
+                    "title" : "Form"
+                }]
+                        
+        },
+        {
+            "week" : "Week 5",
+            "links" : [
+                {
+                    "url" : "week05/prophets.html",
+                    "title" : "Latter-Day Prophets"
+                },
+                {
+                    "url" : "week05/new-ward-members.json",
+                    "title" : "JSON data"
+                },
+                {
+                    "url" : "week05/weather.html",
+                    "title" : "Trier's Weather"
+                }]           
+        }
+    ]
+}
