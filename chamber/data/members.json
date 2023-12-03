@@ -1,0 +1,22 @@
+{
+    "members" : [
+        {
+            "name" : "Ny Amboaranavalona Raheryhasina",
+            "address" : "lot 170, Plle 22/31 Tanamborozano",
+            "phonenumber" : "+261348822090",
+            "websiteURL" : "",
+            "gender" : "male",
+            "age" : "25",
+            "membershiplevel" : ""
+        },
+        {
+            "name" : "Sylver Tommy Razananaivo",
+            "address" : "lot 70, Plle 33/18 Mangarano",
+            "phonenumber" : "+261340888010",
+            "websiteURL" : "",
+            "gender" : "male",
+            "age" : "22",
+            "membershiplevel" : ""
+        }
+    ]
+}
