@@ -332,4 +332,51 @@ form input.submitBtn {
 
 
 
+/************** directory ***************/
 
+section p {
+    color: rgb(31, 45, 85);
+    font-size: 1rem;
+    text-align: center;
+}
+
+section h3 {
+    text-align: center;
+    background: none;
+}
+
+section img {
+    margin: 1rem auto;
+    max-width: 240px; 
+    max-height: 260px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.grid section > * {
+	margin: 1.5rem auto;
+
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;
+    margin: 0;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}

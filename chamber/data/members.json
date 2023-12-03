@@ -4,19 +4,37 @@
             "name" : "Ny Amboaranavalona Raheryhasina",
             "address" : "lot 170, Plle 22/31 Tanamborozano",
             "phonenumber" : "+261348822090",
-            "websiteURL" : "",
+            "photo" : "",
             "gender" : "male",
             "age" : "25",
-            "membershiplevel" : ""
+            "membershiplevel" : "Gold"
         },
         {
             "name" : "Sylver Tommy Razananaivo",
             "address" : "lot 70, Plle 33/18 Mangarano",
             "phonenumber" : "+261340888010",
-            "websiteURL" : "",
+            "photo" : "",
             "gender" : "male",
             "age" : "22",
-            "membershiplevel" : ""
+            "membershiplevel" : "Bronze"
+        },
+        {
+            "name" : "Leonardo Dicaprio",
+            "address" : "lot 10, Plle 20/63 Androranga",
+            "phonenumber" : "+261340065721",
+            "photo" : "",
+            "gender" : "male",
+            "age" : "24",
+            "membershiplevel" : "Bronze"
+        },
+        {
+            "name" : "Angelo Thuram",
+            "address" : "lot 02, Plle 22/30 Androranga Ambony",
+            "phonenumber" : "+261341882190",
+            "photo" : "",
+            "gender" : "male",
+            "age" : "21",
+            "membershiplevel" : "Individual"
         }
     ]
 }
