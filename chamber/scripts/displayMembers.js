@@ -19,19 +19,26 @@ function displayMembers(members) {
         let newImg = document.createElement("img");
         let newH3 = document.createElement("h3");
         let newP = document.createElement("p");
+        let newP1 = document.createElement("p");
         let newSection = document.createElement("section");
         let newDiv = document.createElement("div");
         display.appendChild(newSection);
 
         newH3.textContent = member.name;
-        newP.textContent = `Membership Level: ${member.membershiplevel}`
+        newP.innerHTML = `Membership Level: ${member.membershiplevel}`
+        newP1.innerHTML = `Address: ${member.address} <br>
+                        Phone Number: ${member.phonenumber} <br>
+                        Gender: ${member.gender} <br>
+                        Age: ${member.age} years old<br>`
         newImg.setAttribute('src', member.photo);
         newImg.setAttribute('src', `${member.name}'s photo`);
+        newP1.setAttribute('id', 'infoSup');
 
         newSection.appendChild(newDiv);
         newDiv.appendChild(newImg);
         newSection.appendChild(newH3);
         newSection.appendChild(newP);
+        newSection.appendChild(newP1);
     });
 }
 

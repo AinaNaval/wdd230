@@ -334,6 +334,19 @@ form input.submitBtn {
 
 /************** directory ***************/
 
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+
 section p {
     color: rgb(31, 45, 85);
     font-size: 1rem;
@@ -350,11 +363,46 @@ section img {
     max-width: 240px; 
     max-height: 260px;
 }
-.grid {
+
+article {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
+}
+
+article img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+article section > * {
+	margin: 1.5rem auto;
+
+}
+
+article h3 {
+	font-family: "Caveat", cursive;
+    margin: 0;
+}
+
+article {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+article #infoSup {
+    display: none;
+}
+
+.grid #infoSup {
+    display: none;
+}
+
+.list #infoSup {
+    display: contents;
 }
 
 .grid img {
@@ -379,4 +427,11 @@ section img {
 
 .list section img {
 	display: none; /* smaller viewports only */
+}
+
+.list section {
+    margin: 1.5rem auto;
+}
+.list section p {
+    text-align: center;
 }
