@@ -364,33 +364,40 @@ section img {
     max-height: 350px;
 }
 
-.members {
+article {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
 }
 
-.members img {
+article img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
 }
 
-.members section > * {
+article section > * {
 	margin: 1.5rem auto;
 
 }
 
-.members h3 {
+article h3 {
 	font-family: "Caveat", cursive;
     margin: 0;
 }
 
-.members #infoSup {
+article {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+article #infoSup {
     display: none;
 }
 
-.members #infoSup {
+.grid #infoSup {
     display: none;
 }
 
@@ -401,7 +408,6 @@ section img {
 .grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
-    height: 300px;
 }
 
 .grid section > * {

@@ -2,7 +2,6 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
-const members = document.querySelector(".members");
 const url = "https://ainanaval.github.io/wdd230/chamber/data/members.json";
 
 async function getMembers() {
