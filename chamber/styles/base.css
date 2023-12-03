@@ -364,40 +364,33 @@ section img {
     max-height: 350px;
 }
 
-article {
+.members {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
 }
 
-article img {
+.members img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
 }
 
-article section > * {
+.members section > * {
 	margin: 1.5rem auto;
 
 }
 
-article h3 {
+.members h3 {
 	font-family: "Caveat", cursive;
     margin: 0;
 }
 
-article {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-	grid-gap: 5px;
-	align-items: center;
-}
-
-article #infoSup {
+.members #infoSup {
     display: none;
 }
 
-.grid #infoSup {
+.members #infoSup {
     display: none;
 }
 
