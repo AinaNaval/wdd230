@@ -31,7 +31,7 @@ function displayMembers(members) {
                         Gender: ${member.gender} <br>
                         Age: ${member.age} years old<br>`
         newImg.setAttribute('src', member.photo);
-        newImg.setAttribute('src', `${member.name}'s photo`);
+        newImg.setAttribute('alt', `${member.name}'s photo`);
         newP1.setAttribute('id', 'infoSup');
 
         newSection.appendChild(newDiv);
