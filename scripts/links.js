@@ -1,20 +1,33 @@
-const baseURL = "https://yourgithubusername.github.io/wdd230/";
-const linksURL = "https://yourgithubusername.github.io/wdd230/data/links.json";
-const lists = document.querySelector("li");
+const baseURL = "https://ainanaval.github.io/wdd230/";
+const linksURL = "https://ainanaval.github.io/wdd230/data/links.json";
+const container = document.querySelector("#container");
 
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     console.log(data);
-    displayLinks(data);
+    displayLinks(data.weeks);
 }
 
 getLinks();
 
-const displayLinks = (weeks) => {
+function displayLinks(weeks) {
     weeks.forEach((week) => {
-        let aLink = document.createElement("a");
-        
-        
-    })
+        let newList = document.createElement('li');
+        let liLength = (Object.keys(week.links).length)
+        let i = 0;
+        container.appendChild(newList);
+        console.log(week.week)
+
+        while (i < liLength) {
+            let newLink = document.createElement('a');
+            newLink.setAttribute('href',week.links[i].url);
+            newLink.textContent = week.links[i].title;
+            // console.log('url: ' + week.links[i].url + 'title: ' + week.links[i].title)
+            newList.appendChild(newLink);
+            console.log(newLink)
+            i++;
+        }
+
+    });
 }

@@ -4,11 +4,11 @@
             "week" : "Week 1",
             "links" : [
                 {
-                    "url" : "week01/holygrail.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week01/holygrail.html",
                     "title" : "HG Layout"
                 },
                 {
-                    "url" : "week01/media-query.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week01/media-query.html",
                     "title" : "Media Query"
                 }]
         },
@@ -16,7 +16,7 @@
             "week" : "Week 2",
             "links" : [
                 {
-                    "url" : "week02/design.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week02/design.html",
                     "title" : "Design"
                 },
                 {
@@ -24,7 +24,7 @@
                     "title" : "Responsive Hamburger Menu"
                 },
                 {
-                    "url" : "week02/bom.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week02/bom.html",
                     "title" : "DOM"
                 }]       
         },
@@ -32,15 +32,15 @@
             "week" : "Week 3",
             "links" : [
                 {
-                    "url" : "week03/images/landscape.webp",
+                    "url" : "https://ainanaval.github.io/wdd230/week03/images/landscape.webp",
                     "title" : "WebP"
                 },
                 {
-                    "url" : "week03/bom.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week03/bom.html",
                     "title" : "BOM"
                 },
                 {
-                    "url" : "week03/lazyload.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week03/lazyload.html",
                     "title" : "Lazyload"
                 }]       
         },
@@ -52,15 +52,15 @@
                     "title" : "Pseudo-Class"
                 },
                 {
-                    "url" : "week04/images/exercises.png",
+                    "url" : "https://ainanaval.github.io/wdd230/week04/images/exercises.png",
                     "title" : "Exercises"
                 },
                 {
-                    "url" : "week04/tablebuild.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week04/tablebuild.html",
                     "title" : "Table"
                 },
                 {
-                    "url" : "week04/form-start/form-start/index.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week04/form-start/form-start/index.html",
                     "title" : "Form"
                 }]
                         
@@ -69,15 +69,15 @@
             "week" : "Week 5",
             "links" : [
                 {
-                    "url" : "week05/prophets.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week05/prophets.html",
                     "title" : "Latter-Day Prophets"
                 },
                 {
-                    "url" : "week05/new-ward-members.json",
+                    "url" : "https://ainanaval.github.io/wdd230/week05/new-ward-members.json",
                     "title" : "JSON data"
                 },
                 {
-                    "url" : "week05/weather.html",
+                    "url" : "https://ainanaval.github.io/wdd230/week05/weather.html",
                     "title" : "Trier's Weather"
                 }]           
         }
