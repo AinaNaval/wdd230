@@ -361,7 +361,7 @@ section h3 {
 section img {
     margin: 1rem auto;
     max-width: 240px; 
-    max-height: 260px;
+    max-height: 350px;
 }
 
 article {
@@ -408,6 +408,7 @@ article #infoSup {
 .grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
+    height: 300px;
 }
 
 .grid section > * {
